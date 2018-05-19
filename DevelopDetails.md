@@ -4,9 +4,9 @@
 ### 1.1 .m2文件
 	用提供的.m2文件夹将C:\Users\47463\.m2**文件覆盖**
 ### 1.2 创建父类工程
-	在eclipse中创建Maven项目，**勾选Create a simple project**-->next-->GroupId:com.taotao;Artifact 
-	Id:taotao-parent;Version:0.0.1-SNAPSHOT;在**Packaging中选择pom**（所有子项目的父工程）-->完成。
-	在taotao-parent项目下**修改pom.xml**文件：点击文本编辑框下面的pom.xml。添加后详情见项目中文件
+	在eclipse中创建Maven项目，**勾选Create a simple project**-->next-->GroupId:com.taotao;Artifact Id:taotao-parent;
+	Version:0.0.1-SNAPSHOT;在**Packaging中选择pom**（所有子项目的父工程）-->完成。在taotao-parent项目下**修改pom.xml**
+	文件：点击文本编辑框下面的pom.xml。添加后详情见项目中文件
 ### 1.3 创建一个common工程
 	该工程有很多共有的代码，需要继承taotao-parent工程。在eclipse中创建Maven项目，勾选Create a simple 
 	project-->next-->GroupId:com.taotao;Artifact Id:taotao-common;Version:0.0.1-SNAPSHOT;在Packaging:
