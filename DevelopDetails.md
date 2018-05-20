@@ -29,7 +29,6 @@
 	taotao-manager-pojo.但需要修改pom.xml
 #### 1.4.4 taotao-manager-web(controller)(war包)（最后聚合到war包里面）
 	Packaging选择war.需要在src/main/webapp下创建/WEB-INF/web.xml
-
 ### 1.5 运行（运行taotao-manager工程）
 	在taotao-manager工程的pom.xml中配置tomcat插件.点击taotao-manager项目右键，run as选第二个，在Goals输入：clean tomcat7
 	.run出现错误找不到parent。在taotao-parent项目点击右键，run as-->Maven install(将taotao-parent安装到本地仓库);在taotao
