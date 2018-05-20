@@ -32,5 +32,5 @@
 ### 1.5 运行（运行taotao-manager工程）
 	在taotao-manager工程的pom.xml中配置tomcat插件.点击taotao-manager项目右键，run as选第二个，在Goals输入：clean tomcat7
 	.run出现错误找不到parent。在taotao-parent项目点击右键，run as-->Maven install(将taotao-parent安装到本地仓库);在taotao
-	-common项目点击右键，run as-->Maven install(将taotao-common安装到本地仓库。运行taotao-manager工程，      在浏览器输入            	
+	-common项目点击右键，run as-->Maven install(将taotao-common安装到本地仓库。运行taotao-manager工程，   在浏览器输入            	
 	http://localhost:8080/ 即可访问。
